@@ -146,7 +146,7 @@ const App = () => {
 
             <div className="relative w-full rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] z-10 border-[4px] border-white bg-white">
               <img 
-                src="/familia.jpg" 
+               src="/PROJETOFASIPE/familia.jpg"
                 alt="Família" 
                 className="w-full h-auto object-cover aspect-[4/5]" 
               />
