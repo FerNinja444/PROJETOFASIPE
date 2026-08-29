@@ -1,13 +1,16 @@
 {
   "name": "novo-adbook",
   "private": true,
+  "homepage": "https://FerNinja444.github.io/PROJETOFASIPE",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.4",
